@@ -23,6 +23,9 @@ The goal of this project is to automate the ETL process using Apache Airflow. Th
 
 ---
 
+## Project Structure
+
+```plaintext
 /home/project/
 ├── airflow/
 │   ├── dags/
@@ -34,6 +37,8 @@ The goal of this project is to automate the ETL process using Apache Airflow. Th
 │       ├── tollplaza-data.tsv           # Sample TSV data
 │       ├── payment-data.txt             # Sample fixed-width data
 │       └── transformed_data.csv         # Final output after transformation
+
+```
 
 
 ### Project Workflow
