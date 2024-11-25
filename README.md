@@ -23,28 +23,19 @@ The goal of this project is to automate the ETL process using Apache Airflow. Th
 
 ---
 
-## Project Structure
 /home/project/
 
 ├── airflow/
-
 │   ├── dags/
-
 │   │   └── ETL_toll_data.py              # Airflow DAG script for ETL pipeline
-
 │   └── airflow.cfg                       # Airflow configuration file
 
 ├── finalassignment/
-
-│   ├── staging/                          # Raw and processed data files
-
-│   │   ├── vehicle-data.csv              # Sample CSV data
-
-│   │   ├── tollplaza-data.tsv           # Sample TSV data
-
-│   │   ├── payment-data.txt             # Sample fixed-width data
-
-│   │   └── transformed_data.csv         # Final output after transformation
+│   └── staging/                          # Raw and processed data files
+│       ├── vehicle-data.csv              # Sample CSV data
+│       ├── tollplaza-data.tsv           # Sample TSV data
+│       ├── payment-data.txt             # Sample fixed-width data
+│       └── transformed_data.csv         # Final output after transformation
 
 ### Project Workflow
 1. Environment Setup
